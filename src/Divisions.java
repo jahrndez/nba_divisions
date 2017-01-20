@@ -18,7 +18,7 @@ public class Divisions {
 
     public static void kmeans() {
         try {
-            Dataset data = FileHandler.loadDataset(new File("Divisions.csv"), 0, ",");
+            Dataset data = FileHandler.loadDataset(new File("city_coordinates.csv"), 0, ",");
             System.out.println(data.noAttributes());
             for (int i = 0; i < data.size(); i++) {
                 System.out.println(data.instance(i).classValue() + ": " + data.instance(i).value(0) + ", " + data.instance(i).value(1));
