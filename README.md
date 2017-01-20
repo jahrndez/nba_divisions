@@ -1,2 +1,2 @@
 # nba_divisions
-Grouping NBA teams into the most geographically sensible divisions, assuming the addition of Seattle and Las Vegas teams.
+Uses a variation of k-means to group NBA teams into the most geographically sensible divisions, assuming the addition of Seattle and Las Vegas teams.
